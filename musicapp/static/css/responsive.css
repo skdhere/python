@@ -1,0 +1,267 @@
+
+/* Responsive (Mobile) Design
+**********************************************************/
+@media (min-width:1025px) and (max-width:1400px) {
+}
+
+@media (min-width:1024px) {
+.bolg-head-box p {
+    width: 60%;
+}
+}
+
+@media (min-width:993px) and (max-width:1024px) {
+.home-service-text h3 {
+    font-size: 20px;
+}
+.main-counter-box h2 {
+    font-size: 24px;
+}
+.main-counter-box h3 {
+    font-size: 14px;
+}
+.home-blog-text h3 a {
+    font-size: 20px;
+    line-height: 22px;
+}
+.main-footer li a {
+    padding: 0 12px;
+    font-size: 11px;
+}
+.copy-text p {
+    font-size: 11px;
+}
+body {
+    padding: 20px;
+}
+.header-fixed {
+    padding: 0 !important;
+}
+.inside-header {
+    padding: 0;
+}
+.masthead {
+    padding: 40px 40px 0;
+}
+.cd-nav-trigger {
+    right: 0;
+    top: 0;
+}
+.banner-text h1 {
+    font-size: 100px;
+}
+.banner-text h2 {
+    font-size: 70px;
+}
+.sub-banner-text li h3 {
+    font-size: 30px;
+}
+#homepage-banner::before {
+    width: 680px;
+}
+#homepage-banner::before {
+    background-position: 100%, 100%;
+}
+.header-fixed .cd-nav-trigger {
+    right: 25px;
+}
+.cd-nav .cd-navigation-wrapper {
+    padding: 85px 0 0 0;
+}
+}
+
+@media (min-width:768px) and (max-width:992px) {
+.home-blog-box {
+	width: 70%;
+	margin: 20px auto !important;
+}
+}
+
+@media (max-width:768px) {
+body {
+    padding: 20px;
+}
+.no-padding-counter {
+    padding: 0 10px;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+.home-blog-box {
+    margin: 20px 0;
+}
+.home-blog .container {
+    width: 100%;
+}
+.blog-img img {
+    float: none;
+    width: 100%;
+}
+#homepage-banner::before {
+    display: none;
+}
+#homepage-banner video {
+    width: 100%;
+    float: left;
+}
+.banner-text {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-text h1 {
+    font-size: 90px;
+}
+.banner-text h2 {
+    font-size: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.banner-text-list li {
+    display: block;
+}
+.sub-banner-text li h3 {
+    font-size: 30px;
+}
+.sub-banner-text {
+    padding-left: 0;
+}
+.banner-text-list {
+    text-align: center;
+}
+.banner-text h2::after {
+    width: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner-text {
+    padding: 0 15px;
+}
+.banner-text h5 {
+    text-align: center;
+}
+.header-fixed {
+    padding: 0 !important;
+}
+.masthead {
+    padding: 0;
+}
+.cd-nav-trigger {
+    top: 40px;
+}
+.cd-navigation-wrapper {
+    padding-left: 0 !important;
+    padding-top: 85px !important;
+}
+.cd-nav .cd-navigation-wrapper {
+    padding: 85px 0 0 0;
+}
+.home-services .col-lg-4::after {
+    display: none;
+}
+.footer-nav {
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+.copy-text p {
+    text-align: center;
+}
+#menu li.active ul li a::before {
+    top: 1px;
+}
+.scroll {
+    bottom: 15px;
+}
+.banner-text h5 {
+    padding-top: 25px;
+}
+.main-footer li a {
+    padding: 0px 12px;
+}
+	
+	
+}
+@media (min-width:480px) and (max-width:767px) {
+#homepage-banner {
+	height: 400px;
+}
+	.banner-text h1 {
+	font-size: 50px;
+}
+.banner-text h2 {
+	font-size: 30px;
+	padding-bottom: 12px;
+	margin-bottom: 10px;
+}	
+	.sub-banner-text li h3 {
+	font-size: 20px;
+	padding: 3px 0;
+	}
+	
+.banner-text h5 {
+	font-size: 18px;
+	padding-top: 0px;
+}
+	.scroll {
+	bottom: 6px;
+}
+	.home-blog-box {
+	width: 80%;
+	margin: 20px auto !important;
+}
+	.inside-header {
+		padding: 30px 30px 0 30px;
+	}
+	.cd-nav-trigger {
+	top: 30px;
+	right: 30px;
+}
+	
+}
+
+@media (max-width:767px) {
+}
+
+@media (max-width:480px) {
+.brand img {
+    width: 80%;
+}
+}
+
+/* iphone 6+ landscape */
+@media only screen and (min-device-width :414px) and (max-device-width :736px) and (orientation : landscape) {
+}
+
+/* iphone 6 + */
+@media only screen and (min-device-width :414px) and (max-device-width : 420px) and (orientation : portrait) {
+}
+
+/* iphone 6 portrait */
+@media only screen and (min-device-width : 374px) and (max-device-width : 375px) and (orientation : portrait) {
+}
+
+/* iphone 6 landscape */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+}
+
+@media (max-width:320px) {
+		.banner-text h1 {
+	font-size: 60px;
+}
+.banner-text h2 {
+	font-size: 40px;
+	padding-bottom: 12px;
+	margin-bottom: 10px;
+}	
+	.sub-banner-text li h3 {
+	font-size: 20px;
+	padding: 3px 0;
+	}
+	
+.banner-text h5 {
+	font-size: 18px;
+	padding-top: 0px;
+}
+	.home-blog-text h3 a {
+	font-size: 18px;
+}
+	
+}
